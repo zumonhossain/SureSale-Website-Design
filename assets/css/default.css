@@ -1,7 +1,7 @@
 
 
 *{margin:0;padding:0}
-.right_sidebar_background{background:url(img/2.jpg) no-repeat;background-size:100% 168px;height:168px}
+
 /* default section column(sc) for large device(ld) badge 100% */
 .d-s-c-ld-1{width:8.333334%}
 .d-s-c-ld-2{width:16.666667%}
@@ -17,7 +17,24 @@
 .d-s-c-ld-12{width:100%}
 
 /* section column extra property */
-.d-s-c-ld-1,.d-s-c-ld-10,.d-s-c-ld-11,.d-s-c-ld-12,.d-s-c-ld-2,.d-s-c-ld-3,.d-s-c-ld-4,.d-s-c-ld-5,.d-s-c-ld-6,.d-s-c-ld-7,.d-s-c-ld-8,.d-s-c-ld-9{float:left;padding-left:15px;padding-right:15px;box-sizing:border-box}
+.d-s-c-ld-1,.d-s-c-ld-10,.d-s-c-ld-11,.d-s-c-ld-12,.d-s-c-ld-2,.d-s-c-ld-3,.d-s-c-ld-4,.d-s-c-ld-5,.d-s-c-ld-6,.d-s-c-ld-7,.d-s-c-ld-8,.d-s-c-ld-9{
+    float:left;
+    padding-left:15px;
+    padding-right:15px;
+    box-sizing:border-box;
+}
+
+
+/* default section column(sc) for large device(sd) badge 100% */
+.d-s-c-sm-1{width:9.0909%}
+
+/* section column extra property */
+.d-s-c-sm-1,.d-s-c-sm-10,.d-s-c-sm-11,.d-s-c-sm-12,.d-s-c-sm-2,.d-s-c-sm-3,.d-s-c-sm-4,.d-s-c-sm-5,.d-s-c-sm-6,.d-s-c-sm-7,.d-s-c-sm-8,.d-s-c-sm-9{
+    float:left;
+    padding-left:15px;
+    padding-right:15px;
+    box-sizing:border-box;
+}
 
 .row::after{content:"";display:table;clear:both;}
 /* default margin top */
